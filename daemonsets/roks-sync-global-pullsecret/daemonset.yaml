@@ -12,7 +12,7 @@ spec:
       app.kubernetes.io/instance: global-pull-secret-synch-sa
   template:
     spec:
-      matchLabels:
+      labels:
         app.kubernetes.io/name: global-pull-secret-synch
         app.kubernetes.io/instance: global-pull-secret-synch-sa
       serviceAccountName: global-pull-secret-synch-sa
